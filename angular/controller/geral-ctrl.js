@@ -21,7 +21,12 @@ generalSCG.controller("shortcutg", function($scope) {
 							{label: 'PSN', url: 'https://www.playstation.com/pt-br/network/', img: 'https://apprecs.org/ios/images/app-icons/256/29/441051689.jpg'}
 						];
 
-	$scope.shortcut = [	{label: 'Biblioteca Digital', url: 'http://gen.lib.rus.ec/', img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4MfOPQiixF9KfQauqvkIabFWDfgiDjVgWAjWYMWEaGewVnAiNFQ'} 
+	$scope.shortcut = [	{label: 'Biblioteca Digital', url: 'http://gen.lib.rus.ec/', img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4MfOPQiixF9KfQauqvkIabFWDfgiDjVgWAjWYMWEaGewVnAiNFQ'},
+						{label: 'Amazon', url: 'https://www.amazon.com.br/', img: 'https://joaquimlivraria.files.wordpress.com/2012/09/amazon_icon.png?w=660'}, 
+						{label: 'Amazon Music', url: 'https://music.amazon.com.br/', img: 'https://www.macfn.com/data/2016/12/Amazon-Music.jpg'}, 
+						{label: 'Prime Video', url: 'https://www.primevideo.com/', img: 'https://cdn6.aptoide.com/imgs/c/6/f/c6fbff829fa21abf6037e25e37472498_icon.png?w=256'}, 
+						{label: 'Trello', url: 'https://trello.com/', img: 'https://miro.medium.com/fit/c/256/256/1*F0xe1DGvxCLs8YQLuIzuUQ.png'}, 
+						{label: 'Youtube', url: 'https://www.youtube.com/', img: 'https://lh3.googleusercontent.com/KhY28aTw30hEJXooMF-_rQqwMIIqofFvasbZJtEpvlgHQwLXKP3KW0OoCTtoYpDNn_U=w128'}
 						];
 
 	$scope.project = [	{label: 'Lyrics Project', url: 'https://1995.netlify.com/', img: 'https://pbs.twimg.com/profile_images/422137684014792704/GZfNf9ti.png'}, 
