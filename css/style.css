@@ -1,0 +1,12 @@
+* {
+	border-spacing: 0;
+}
+
+table {
+	border: 1px solid #000;
+}
+tr, td, th {
+	border: 1px solid #000;
+	text-align: center;
+	padding: 5px 15px;
+}
