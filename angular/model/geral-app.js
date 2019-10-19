@@ -1,0 +1,1 @@
+var generalSCG = angular.module("generalSCG", []);

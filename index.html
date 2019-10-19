@@ -6,7 +6,11 @@
 		<link rel="icon" alt="picareta-diamante" href="https://www.islandcube.com/arquivos/img/itens/picareta-diamante.png">
 		
 		<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+	    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-animate.js"></script>
+		<script src="./angular/model/geral-app.js"></script>
+		<script src="./angular/controller/geral-ctrl.js"></script>
 	</head>
 	<body>
 		<nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -37,6 +41,21 @@
 		  </div>
 		</nav>
 		
+		<div class="container">
+			<br>
+		</div>
+		<div class="container" ng-app="generalSCG" ng-controller="shortcutg">
+			<div class="row" ng-repeat="sc in shortcut">
+				<div class="col">
+					<a href="{{sc.url}}" target="_blank">
+						<img src="{{sc.img}}" alt="{{sc.label}}" width="50" height="50">
+						<br>
+						{{sc.label}}
+					</a>
+				</div>
+			</div>
+		</div>
+
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous"></script>
 	</body>
