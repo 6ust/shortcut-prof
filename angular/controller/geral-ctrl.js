@@ -6,7 +6,9 @@ generalSCG.controller("shortcutg", function($scope) {
 						{label: 'Alison', url: 'https://alison.com/pt-BR/cursos-de-certificado', img: 'https://static-s.aa-cdn.net/img/gp/20600008806432/JcOYjy5wl5uCc4RkPGJru0HMgxJo9gU70DfgovOTmClLasfwE0UoeY5ebykRAuG_A5U=w300?v=1'}, 
 						{label: 'EDX', url: 'https://www.edx.org/', img: 'https://miro.medium.com/fit/c/256/256/1*4EJywszrvCscJBsmQlXB8w.jpeg'}, 
 						{label: 'Future Learn', url: 'https://www.futurelearn.com/', img: 'https://miro.medium.com/fit/c/256/256/1*No_5DlBQPdlZHyoLfyUMhQ.png'}, 
-						{label: 'Open', url: 'https://www.open.edu/openlearn/free-courses', img: 'https://www.openoffice.org/images/AOO_logos/orb.jpg'}
+						{label: 'Open', url: 'https://www.open.edu/openlearn/free-courses', img: 'https://www.openoffice.org/images/AOO_logos/orb.jpg'},
+						{label: 'Visualização de Mapas Iterativos com Python', url: 'https://minerandodados.com.br/visualizando-mapas-interativos-com-python/', img: 'https://www.python.org/static/opengraph-icon-200x200.png'}, 
+						{label: 'Algoritmo de Machine Learning', url: 'https://paulovasconcellos.com.br/como-criar-seu-primeiro-aplicativo-de-machine-learning-7b6af291ba11', img: 'https://www.python.org/static/opengraph-icon-200x200.png'} 
 					];
 	$scope.lineSocial = [	{label: 'Facebook', url: 'https://www.facebook.com/', img: 'https://cdn.pixabay.com/photo/2017/08/20/10/30/facebook-2661207_960_720.jpg'}, 
 							{label: 'Instagram', url: 'https://www.instagram.com/', img: 'https://images.vexels.com/media/users/3/147098/isolated/lists/931095c4442a6b69f717233f80aa0a68-botao-de-foto-do-instagram.png'}, 
