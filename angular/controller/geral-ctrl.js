@@ -20,7 +20,8 @@ generalSCG.controller("shortcutg", function($scope) {
 							{label: 'Whatsapp Web', url: 'https://www.whatsapp.com/?lang=pt_br', img: 'https://dl1.cbsistatic.com/i/2016/05/11/93d7eae4-8cab-4e76-b4e4-dd932d302bf3/8d7c6881e1f2a951bef40e039e58b587/imgingest-8323235902858999630.png'}, 
 							{label: 'Pinterest', url: 'https://br.pinterest.com/', img: 'http://cinematografico.com.br/wp-content/uploads/2013/09/pinterest.png'}, 
 							{label: 'Outlook', url: 'https://outlook.live.com/owa/', img: 'https://newsignature.com/wp-content/uploads/2019/04/outlook.png'},
-							{label: 'PSN', url: 'https://www.playstation.com/pt-br/network/', img: 'https://apprecs.org/ios/images/app-icons/256/29/441051689.jpg'}
+							{label: 'PSN', url: 'https://www.playstation.com/pt-br/network/', img: 'https://apprecs.org/ios/images/app-icons/256/29/441051689.jpg'},
+							{label: 'YoPmaiL', url: 'http://www.yopmail.com/en/', img: 'https://uncomocorreo.com/wp-content/uploads/2017/03/yopmail-logo.png'}
 						];
 
 	$scope.shortcut = [	{label: 'Biblioteca Digital', url: 'http://gen.lib.rus.ec/', img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4MfOPQiixF9KfQauqvkIabFWDfgiDjVgWAjWYMWEaGewVnAiNFQ'},
@@ -28,7 +29,8 @@ generalSCG.controller("shortcutg", function($scope) {
 						{label: 'Amazon Music', url: 'https://music.amazon.com.br/', img: 'https://www.macfn.com/data/2016/12/Amazon-Music.jpg'}, 
 						{label: 'Prime Video', url: 'https://www.primevideo.com/', img: 'https://cdn6.aptoide.com/imgs/c/6/f/c6fbff829fa21abf6037e25e37472498_icon.png?w=256'}, 
 						{label: 'Trello', url: 'https://trello.com/', img: 'https://miro.medium.com/fit/c/256/256/1*F0xe1DGvxCLs8YQLuIzuUQ.png'}, 
-						{label: 'Youtube', url: 'https://www.youtube.com/', img: 'https://lh3.googleusercontent.com/KhY28aTw30hEJXooMF-_rQqwMIIqofFvasbZJtEpvlgHQwLXKP3KW0OoCTtoYpDNn_U=w128'}
+						{label: 'Youtube', url: 'https://www.youtube.com/', img: 'https://lh3.googleusercontent.com/KhY28aTw30hEJXooMF-_rQqwMIIqofFvasbZJtEpvlgHQwLXKP3KW0OoCTtoYpDNn_U=w128'},
+						{label: 'Draw.io', url: 'https://www.draw.io/', img: 'https://lh3.googleusercontent.com/dtke8de00hrk5frYXfrfrQx_TpP1JYFmMlVAJ_UhuUoQl8W9_eUR4m62dPKj5TyAryXKIfyypZY=w128-h128-e365'}
 						];
 
 	$scope.project = [	{label: 'Lyrics Project', url: 'https://1995.netlify.com/', img: 'https://pbs.twimg.com/profile_images/422137684014792704/GZfNf9ti.png'}, 
