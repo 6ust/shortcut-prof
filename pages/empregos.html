@@ -2,7 +2,7 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8">
-		<title>Projetos</title>
+		<title>Empregos</title>
 		<link rel="icon" alt="picareta-diamante" href="https://www.islandcube.com/arquivos/img/itens/picareta-diamante.png">
 		
 		<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -31,11 +31,11 @@
 		      <li class="nav-item">
 		        <a class="nav-link" href="./estudos.html">Estudos</a>
 		      </li>
-		      <li class="nav-item active">
+		      <li class="nav-item">
 		        <a class="nav-link" href="./projetos.html">Projetos</a>
 		      </li>
-		      <li class="nav-item">
-		        <a class="nav-link" href="./empregos.html">Empregos</a>
+		      <li class="nav-item active">
+		        <a class="nav-link" href="#">Empregos</a>
 		      </li>
 		    </ul>
 		    <form class="form-inline my-2 my-lg-0">
@@ -48,9 +48,9 @@
 		<div class="container">
 			<br>
 		</div>
-		<div class="container" ng-app="generalSCG" ng-controller="shortcutg">
-			<div class="row" ng-repeat="sc in project">
-				<div class="col " >
+		<div class="container row" ng-app="generalSCG" ng-controller="shortcutg">
+			<div ng-repeat="sc in jobs">
+				<div class="col" >
 					<a href="{{sc.url}}" target="_blank">
 						<img src="{{sc.img}}" alt="{{sc.label}}" width="50" height="50">
 						<br>

@@ -36,4 +36,14 @@ generalSCG.controller("shortcutg", function($scope) {
 	$scope.project = [	{label: 'Lyrics Project', url: 'https://1995.netlify.com/', img: 'https://pbs.twimg.com/profile_images/422137684014792704/GZfNf9ti.png'}, 
 						{label: 'Movies DBZN', url: 'https://moviedbzn.netlify.com/', img: 'http://www.pkicon.com/icons/8384/Dragon-Ball-256.png'} 
 					 ];
+	$scope.jobs = [	{label: 'California Jobing',url: 'https://california.jobing.com/',img: 'https://icon-library.net/images/icon-j/icon-j-14.jpg'},
+						{label: 'California Jobing',url: 'https://www.california.jobs/',img: 'https://projects.sfchronicle.com/shared/logos/sfletter_c_black_on_gray.png'},
+						{label: 'Teach California',url: 'https://www.teachcalifornia.org/Steps/Jobs',img: 'https://uploads-ssl.webflow.com/5a24e6b119e5440001d480f4/5a36bf06c87d66000138611b_TC%20webclip.png'},
+						{label: 'Iconorbit',url: 'https://iconorbit.com/icons/256-watermark/1804201616511176811-hot%20sun%20icon.jpg',img: 'https://iconorbit.com/icons/256-watermark/1804201616511176811-hot%20sun%20icon.jpg'},
+						{label: 'AGCareers',url: 'https://www.agcareers.com/california-jobs.cfm',img: 'https://aasg.chirpingmustard.com/avatars/011-ag-logo.png'},
+						{label: 'Indeed',url: 'https://www.indeed.com/l-California-jobs.html',img: 'http://pngimg.com/uploads/letter_i/letter_i_PNG72.png'},
+						{label: 'Career',url: 'https://www.careerjet.com/immigration-jobs/california-370.html',img: 'https://pbs.twimg.com/profile_images/3366855626/359799c70e188b7ead0fc0558980a09f.png'},
+						{label: 'Snag a Job',url: 'https://www.snagajob.com/states/ca',img: 'https://i1.wp.com/surgiu.com.br/wp-content/uploads/2019/06/Logo-S-Surgiu-1.jpg?fit=256%2C256'},
+						{label: 'Monster',url: 'https://www.monster.com/',img: 'https://pt.seaicons.com/wp-content/uploads/2016/05/Letter-M-blue-icon.png'}
+					 ]; 
 });
