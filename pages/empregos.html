@@ -48,18 +48,34 @@
 		<div class="container">
 			<br>
 		</div>
-		<div class="container row" ng-app="generalSCG" ng-controller="shortcutg">
-			<div ng-repeat="sc in jobs">
-				<div class="col" >
-					<a href="{{sc.url}}" target="_blank">
-						<img src="{{sc.img}}" alt="{{sc.label}}" width="50" height="50">
-						<br>
-						{{sc.label}}
-					</a>
+
+		<div class="container" ng-app="generalSCG" >
+			<h2>California</h2>
+			<div ng-controller="shortcutg" class="row">
+				<div ng-repeat="sc in jobsUSACal">
+					<div class="col" >
+						<a href="{{sc.url}}" target="_blank">
+							<img src="{{sc.img}}" alt="{{sc.label}}" width="50" height="50">
+							<br>
+							{{sc.label}}
+						</a>
+					</div>
+				</div>
+			</div>
+			<br><br>
+			<h2>Brasil</h2>
+			<div ng-controller="shortcutg" class="row">
+				<div ng-repeat="scbra in jobsBra">
+					<div class="col" >
+						<a href="{{scbra.url}}" target="_blank">
+							<img src="{{scbra.img}}" alt="{{scbra.label}}" width="50" height="50">
+							<br>
+							{{scbra.label}}
+						</a>
+					</div>
 				</div>
 			</div>
 		</div>
-
 
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous"></script>
