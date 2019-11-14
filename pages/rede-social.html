@@ -46,18 +46,46 @@
 		<div class="container">
 			<br>
 		</div>
-		<div class="container row" ng-app="generalSCG" ng-controller="shortcutg">
-			<div class="" ng-repeat="sc in lineSocial">
-				<div class="col " >
-					<a href="{{sc.url}}" target="_blank">
-						<img src="{{sc.img}}" alt="{{sc.label}}" width="50" height="50">
-						<br>
-						{{sc.label}}
-					</a>
+		<div class="container" ng-app="generalSCG">
+			<h3>Redes Sociais</h3>
+			<div ng-controller="shortcutg" class="row">
+				<div class="" ng-repeat="sc in lineSocialOriginal">
+					<div class="col " >
+						<a href="{{sc.url}}" target="_blank">
+							<img src="{{sc.img}}" alt="{{sc.label}}" width="50" height="50">
+							<br>
+							{{sc.label}}
+						</a>
+					</div>
+				</div>
+			</div>
+			<br><br>
+			<h3>Armazenamento WEB</h3>
+			<div ng-controller="shortcutg" class="row">
+				<div class="" ng-repeat="scstrg in lineSocialStorage">
+					<div class="col " >
+						<a href="{{scstrg.url}}" target="_blank">
+							<img src="{{scstrg.img}}" alt="{{scstrg.label}}" width="50" height="50">
+							<br>
+							{{scstrg.label}}
+						</a>
+					</div>
+				</div>
+			</div>
+			<br><br>
+			<h3>Redes Sociais - Temp</h3>
+			<div ng-controller="shortcutg" class="row">
+				<div class="" ng-repeat="sctmp in lineSocialTemp">
+					<div class="col " >
+						<a href="{{sctmp.url}}" target="_blank">
+							<img src="{{sctmp.img}}" alt="{{sctmp.label}}" width="50" height="50">
+							<br>
+							{{sctmp.label}}
+						</a>
+					</div>
 				</div>
 			</div>
 		</div>
-
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous"></script>
 	</body>
