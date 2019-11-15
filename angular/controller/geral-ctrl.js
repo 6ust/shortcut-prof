@@ -1,14 +1,15 @@
 generalSCG.controller("shortcutg", function($scope) {
-	$scope.study = [ 	{label: 'Deep Learning - Inteligencia Artificial', url: 'http://deeplearningbook.com.br/', img: 'https://www.clinks.com.br/wp-content/uploads/2018/02/relacao-inteligencia-artificial-sistema-cognitivo.png'}, 
-						{label: 'Udemy', url: 'https://www.udemy.com/', img: 'https://logo.clearbit.com/udemy.com'}, 
-						{label: 'Coursera', url: 'https://pt.coursera.org/', img: 'https://cdn6.aptoide.com/imgs/e/8/6/e86471635e2d0656bc77a32f8b9066e2_icon.png?w=128'}, 
-						{label: 'Class Central', url: 'https://www.classcentral.com/collection/top-free-online-courses', img: 'https://d2.alternativeto.net/dist/icons/coursera_76129.png?width=128&height=128&mode=crop&upscale=false'}, 
+	$scope.study = [ 	{label: 'Academia[PDF] - Casa do Codigo', url: 'https://www.academia.edu/', img: 'https://a.academia-assets.com/assets/academia-logo-redesign-2015-A-e26cea4e7b60442d1bf312743a2d56ececd63a3d1541baea464697dc3478746e.svg'}, 
+						{label: 'Algoritmo de Machine Learning', url: 'https://paulovasconcellos.com.br/como-criar-seu-primeiro-aplicativo-de-machine-learning-7b6af291ba11', img: 'https://www.python.org/static/opengraph-icon-200x200.png'},
 						{label: 'Alison', url: 'https://alison.com/pt-BR/cursos-de-certificado', img: 'https://static-s.aa-cdn.net/img/gp/20600008806432/JcOYjy5wl5uCc4RkPGJru0HMgxJo9gU70DfgovOTmClLasfwE0UoeY5ebykRAuG_A5U=w300?v=1'}, 
+						{label: 'Class Central', url: 'https://www.classcentral.com/collection/top-free-online-courses', img: 'https://d2.alternativeto.net/dist/icons/coursera_76129.png?width=128&height=128&mode=crop&upscale=false'}, 
+						{label: 'Coursera', url: 'https://pt.coursera.org/', img: 'https://cdn6.aptoide.com/imgs/e/8/6/e86471635e2d0656bc77a32f8b9066e2_icon.png?w=128'}, 
+						{label: 'Deep Learning - Inteligencia Artificial', url: 'http://deeplearningbook.com.br/', img: 'https://www.clinks.com.br/wp-content/uploads/2018/02/relacao-inteligencia-artificial-sistema-cognitivo.png'}, 
 						{label: 'EDX', url: 'https://www.edx.org/', img: 'https://miro.medium.com/fit/c/256/256/1*4EJywszrvCscJBsmQlXB8w.jpeg'}, 
 						{label: 'Future Learn', url: 'https://www.futurelearn.com/', img: 'https://miro.medium.com/fit/c/256/256/1*No_5DlBQPdlZHyoLfyUMhQ.png'}, 
 						{label: 'Open', url: 'https://www.open.edu/openlearn/free-courses', img: 'https://www.openoffice.org/images/AOO_logos/orb.jpg'},
-						{label: 'Visualização de Mapas Iterativos com Python', url: 'https://minerandodados.com.br/visualizando-mapas-interativos-com-python/', img: 'https://www.python.org/static/opengraph-icon-200x200.png'}, 
-						{label: 'Algoritmo de Machine Learning', url: 'https://paulovasconcellos.com.br/como-criar-seu-primeiro-aplicativo-de-machine-learning-7b6af291ba11', img: 'https://www.python.org/static/opengraph-icon-200x200.png'} 
+						{label: 'Udemy', url: 'https://www.udemy.com/', img: 'https://logo.clearbit.com/udemy.com'}, 
+						{label: 'Visualização de Mapas Iterativos com Python', url: 'https://minerandodados.com.br/visualizando-mapas-interativos-com-python/', img: 'https://www.python.org/static/opengraph-icon-200x200.png'}
 					];
 	$scope.lineSocialOriginal = [	{label: 'Facebook', url: 'https://www.facebook.com/', img: 'https://cdn.pixabay.com/photo/2017/08/20/10/30/facebook-2661207_960_720.jpg'}, 
 									{label: 'Gmail', url: 'https://gmail.com/', img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjjLEZ5e7SHOdhu5oEBfcqZW0lV8CIluwQTxZyxvyBEXp8Lo8LTA'}, 
