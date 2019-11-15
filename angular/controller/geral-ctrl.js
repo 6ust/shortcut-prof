@@ -22,6 +22,7 @@ generalSCG.controller("shortcutg", function($scope) {
 									{label: 'Whatsapp Web', url: 'https://www.whatsapp.com/?lang=pt_br', img: 'https://dl1.cbsistatic.com/i/2016/05/11/93d7eae4-8cab-4e76-b4e4-dd932d302bf3/8d7c6881e1f2a951bef40e039e58b587/imgingest-8323235902858999630.png'} 
 								];
 	$scope.lineSocialStorage = [ 	{label: 'Google Drive', url: 'https://drive.google.com', img: 'https://lh3.googleusercontent.com/BjEoTf5LtJenRfAf8Xmmdh3JzbyOEKaerqnRyNcwZ9l1ZQocnJP0h1QvuLelI16PNs9LilHQ=w128-h128-e365'}, 
+									{label: 'Onedrive', url: 'https://onedrive.live.com/', img: 'https://updraftplus.com/wp-content/uploads/2015/05/onedrive-360.png'}
 							   ];
 	$scope.lineSocialTemp = [ {label: 'YoPmaiL', url: 'http://www.yopmail.com/en/', img: 'https://uncomocorreo.com/wp-content/uploads/2017/03/yopmail-logo.png'}
 							];
