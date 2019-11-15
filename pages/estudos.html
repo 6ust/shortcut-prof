@@ -48,14 +48,17 @@
 		<div class="container">
 			<br>
 		</div>
-		<div class="container row" ng-app="generalSCG" ng-controller="shortcutg">
-			<div class="" ng-repeat="sc in study">
-				<div class="col " >
-					<a href="{{sc.url}}" target="_blank">
-						<img src="{{sc.img}}" alt="{{sc.label}}" width="50" height="50">
-						<br>
-						{{sc.label}}
-					</a>
+		<div class="container" ng-app="generalSCG">
+			<h2>Estudos</h2>
+			<div  ng-controller="shortcutg" class="row">
+				<div ng-repeat="sc in study">
+					<div class="col" >
+						<a href="{{sc.url}}" target="_blank">
+							<img src="{{sc.img}}" alt="{{sc.label}}" width="50" height="50">
+							<br>
+							{{sc.label}}
+						</a>
+					</div>
 				</div>
 			</div>
 		</div>
