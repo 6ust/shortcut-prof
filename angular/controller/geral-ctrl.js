@@ -34,7 +34,8 @@ generalSCG.controller("shortcutg", function($scope) {
 						{label: 'Prime Video', url: 'https://www.primevideo.com/', img: 'https://cdn6.aptoide.com/imgs/c/6/f/c6fbff829fa21abf6037e25e37472498_icon.png?w=256'}, 
 						{label: 'Trello', url: 'https://trello.com/', img: 'https://miro.medium.com/fit/c/256/256/1*F0xe1DGvxCLs8YQLuIzuUQ.png'}, 
 						{label: 'Youtube', url: 'https://www.youtube.com/', img: 'https://lh3.googleusercontent.com/KhY28aTw30hEJXooMF-_rQqwMIIqofFvasbZJtEpvlgHQwLXKP3KW0OoCTtoYpDNn_U=w128'},
-						{label: 'Draw.io', url: 'https://www.draw.io/', img: 'https://lh3.googleusercontent.com/dtke8de00hrk5frYXfrfrQx_TpP1JYFmMlVAJ_UhuUoQl8W9_eUR4m62dPKj5TyAryXKIfyypZY=w128-h128-e365'}
+						{label: 'Draw.io', url: 'https://www.draw.io/', img: 'https://lh3.googleusercontent.com/dtke8de00hrk5frYXfrfrQx_TpP1JYFmMlVAJ_UhuUoQl8W9_eUR4m62dPKj5TyAryXKIfyypZY=w128-h128-e365'}, 
+						{label: 'Crunhyroll', url: 'https://www.crunchyroll.com/', img: 'https://carlisletheacarlisletheatre.org/images/crunchyroll-logo-icon-4.png'}
 						];
 
 	$scope.project = [	{label: 'Lyrics Project', url: 'https://1995.netlify.com/', img: 'https://pbs.twimg.com/profile_images/422137684014792704/GZfNf9ti.png'}, 
