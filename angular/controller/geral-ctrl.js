@@ -9,7 +9,8 @@ generalSCG.controller("shortcutg", function($scope) {
 						{label: 'Future Learn', url: 'https://www.futurelearn.com/', img: 'https://miro.medium.com/fit/c/256/256/1*No_5DlBQPdlZHyoLfyUMhQ.png'}, 
 						{label: 'Open', url: 'https://www.open.edu/openlearn/free-courses', img: 'https://www.openoffice.org/images/AOO_logos/orb.jpg'},
 						{label: 'Udemy', url: 'https://www.udemy.com/', img: 'https://logo.clearbit.com/udemy.com'}, 
-						{label: 'Visualização de Mapas Iterativos com Python', url: 'https://minerandodados.com.br/visualizando-mapas-interativos-com-python/', img: 'https://www.python.org/static/opengraph-icon-200x200.png'}
+						{label: 'Visualização de Mapas Iterativos com Python', url: 'https://minerandodados.com.br/visualizando-mapas-interativos-com-python/', img: 'https://www.python.org/static/opengraph-icon-200x200.png'},
+						{label: 'Duolingo', url: 'https://www.duolingo.com/', img: 'https://d35aaqx5ub95lt.cloudfront.net/favicon.ico'}
 					];
 	$scope.lineSocialOriginal = [	{label: 'Facebook', url: 'https://www.facebook.com/', img: 'https://cdn.pixabay.com/photo/2017/08/20/10/30/facebook-2661207_960_720.jpg'}, 
 									{label: 'Gmail', url: 'https://gmail.com/', img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjjLEZ5e7SHOdhu5oEBfcqZW0lV8CIluwQTxZyxvyBEXp8Lo8LTA'}, 
