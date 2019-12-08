@@ -50,7 +50,8 @@ generalSCG.controller("shortcutg", function($scope) {
 						];
 
 	$scope.project = [	{label: 'Lyrics Project', url: 'https://1995.netlify.com/', img: 'https://pbs.twimg.com/profile_images/422137684014792704/GZfNf9ti.png'}, 
-						{label: 'Movies DBZN', url: 'https://moviedbzn.netlify.com/', img: 'http://www.pkicon.com/icons/8384/Dragon-Ball-256.png'} 
+						{label: 'Movies DBZN', url: 'https://moviedbzn.netlify.com/', img: 'http://www.pkicon.com/icons/8384/Dragon-Ball-256.png'}, 
+						{label: 'Recipes and Cocktails', url: 'https://recipesandcocktail.wordpress.com/', img: 'https://images.vexels.com/media/users/3/157026/isolated/lists/3c375311fc725d757df321cd4506c349-icone-de-cocktail-de-martini-de-verao.png'} 
 					 ];
 	$scope.jobsUSACal = [	{label: 'California Jobing',url: 'https://california.jobing.com/',img: 'https://icon-library.net/images/icon-j/icon-j-14.jpg'},
 							{label: 'California Jobing',url: 'https://www.california.jobs/',img: 'https://projects.sfchronicle.com/shared/logos/sfletter_c_black_on_gray.png'},
@@ -62,6 +63,9 @@ generalSCG.controller("shortcutg", function($scope) {
 							{label: 'Snag a Job',url: 'https://www.snagajob.com/states/ca',img: 'https://i1.wp.com/surgiu.com.br/wp-content/uploads/2019/06/Logo-S-Surgiu-1.jpg?fit=256%2C256'},
 							{label: 'Monster',url: 'https://www.monster.com/',img: 'https://pt.seaicons.com/wp-content/uploads/2016/05/Letter-M-blue-icon.png'}
 					 	]; 
-   $scope.jobsBra = [	{label: 'Indeed',url: 'https://www.indeed.com/l-California-jobs.html',img: 'http://pngimg.com/uploads/letter_i/letter_i_PNG72.png'}
+   $scope.jobsBra = [	{label: 'Indeed',url: 'https://www.indeed.com/l-California-jobs.html',img: 'http://pngimg.com/uploads/letter_i/letter_i_PNG72.png'},
+   						{label:'infojobs', url:'https://www.infojobs.com.br/', img:'https://img2.gratispng.com/20180715/ljg/kisspng-logo-brand-infojobs-programmer-computer-icons-saved-by-the-bell-5b4b1413de09a5.5163473015316469959095.jpg'}, 
+						{label:'Vagas Online', url:'https://www.vagas.com.br/', img:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsgBTVnuo3DPz7vPxkPMHCLt0P_n6jUUsFhpoH0W8pqJ4BH8Y3&s'}, 
+						{label:'Trabalha Brasil', url:'https://www.trabalhabrasil.com.br/vagas-empregos-em-sao-paulo-sp', img:'https://www.visavet.es/tb-step/tb-step.ico'}
 					];
 });
