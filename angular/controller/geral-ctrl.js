@@ -20,6 +20,7 @@ generalSCG.controller("shortcutg", function($scope) {
 									{label: 'Pinterest', url: 'https://br.pinterest.com/', img: 'http://cinematografico.com.br/wp-content/uploads/2013/09/pinterest.png'}, 
 									{label: 'PSN', url: 'https://www.playstation.com/pt-br/network/', img: 'https://apprecs.org/ios/images/app-icons/256/29/441051689.jpg'},
 									{label: 'Reddit', url: 'https://www.reddit.com', img: 'https://cdn2.iconfinder.com/data/icons/2018-social-media-app-logos/1000/2018_social_media_popular_app_logo_reddit-512.png'}, 
+									{label: 'Telegram', url: 'https://web.telegram.org/#/im', img: 'https://lh3.googleusercontent.com/ZU9cSsyIJZo6Oy7HTHiEPwZg0m2Crep-d5ZrfajqtsH-qgUXSqKpNA2FpPDTn-7qA5Q'}, 
 									{label: 'Twitter', url: 'https://twitter.com/', img: 'https://img.icons8.com/nolan/2x/twitter.png'}, 
 									{label: 'Whatsapp Web', url: 'https://www.whatsapp.com/?lang=pt_br', img: 'https://dl1.cbsistatic.com/i/2016/05/11/93d7eae4-8cab-4e76-b4e4-dd932d302bf3/8d7c6881e1f2a951bef40e039e58b587/imgingest-8323235902858999630.png'} 
 								];
@@ -31,11 +32,12 @@ generalSCG.controller("shortcutg", function($scope) {
 
 	$scope.shortcut = [ {label: 'Amazon Music', url: 'https://music.amazon.com.br/', img: 'https://www.macfn.com/data/2016/12/Amazon-Music.jpg'}, 
 						{label: 'Biblioteca Digital', url: 'http://gen.lib.rus.ec/', img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4MfOPQiixF9KfQauqvkIabFWDfgiDjVgWAjWYMWEaGewVnAiNFQ'},
+						{label: 'Union Mangás', url: 'http://unionleitor.top/manga', img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS0Te_PVala7SAhnkp_RNqoR0nJYSL1PJx1jTlsdrmpbrbdh5vZ'}, 
 						{label: 'Prime Video', url: 'https://www.primevideo.com/', img: 'https://cdn6.aptoide.com/imgs/c/6/f/c6fbff829fa21abf6037e25e37472498_icon.png?w=256'}, 
 						{label: 'Trello', url: 'https://trello.com/', img: 'https://miro.medium.com/fit/c/256/256/1*F0xe1DGvxCLs8YQLuIzuUQ.png'}, 
 						{label: 'Youtube', url: 'https://www.youtube.com/', img: 'https://lh3.googleusercontent.com/KhY28aTw30hEJXooMF-_rQqwMIIqofFvasbZJtEpvlgHQwLXKP3KW0OoCTtoYpDNn_U=w128'},
 						{label: 'Draw.io', url: 'https://www.draw.io/', img: 'https://lh3.googleusercontent.com/dtke8de00hrk5frYXfrfrQx_TpP1JYFmMlVAJ_UhuUoQl8W9_eUR4m62dPKj5TyAryXKIfyypZY=w128-h128-e365'}, 
-						{label: 'Crunhyroll', url: 'https://www.crunchyroll.com/', img: 'https://carlisletheacarlisletheatre.org/images/crunchyroll-logo-icon-4.png'}
+						{label: 'Crunhyroll', url: 'https://www.crunchyroll.com/', img: 'https://upload.wikimedia.org/wikipedia/commons/7/7a/Crunchyroll_logo_2012v.png'}
 						];
 
 	$scope.shortcutBuy = [ {label: 'Amazon', url: 'https://www.amazon.com.br/', img: 'https://joaquimlivraria.files.wordpress.com/2012/09/amazon_icon.png?w=660'}, 
