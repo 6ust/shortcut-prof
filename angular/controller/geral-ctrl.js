@@ -53,7 +53,8 @@ generalSCG.controller("shortcutg", function($scope) {
 
 	$scope.project = [	{label: 'Lyrics Project', url: 'https://1995.netlify.com/', img: 'https://pbs.twimg.com/profile_images/422137684014792704/GZfNf9ti.png'}, 
 						{label: 'Movies DBZN', url: 'https://moviedbzn.netlify.com/', img: 'https://4.bp.blogspot.com/-G-FHwpnqpW4/UNo-P4DVwqI/AAAAAAAAAGY/8ey52J4RIQ8/s1600/esfera.png'}, 
-						{label: 'Recipes and Cocktails', url: 'https://recipesandcocktail.wordpress.com/', img: 'https://images.vexels.com/media/users/3/157026/isolated/lists/3c375311fc725d757df321cd4506c349-icone-de-cocktail-de-martini-de-verao.png'} 
+						{label: 'Recipes and Cocktails', url: 'https://recipesandcocktail.wordpress.com/', img: 'https://images.vexels.com/media/users/3/157026/isolated/lists/3c375311fc725d757df321cd4506c349-icone-de-cocktail-de-martini-de-verao.png'}, 
+						{label: 'Game GIT: A Kripta', url: 'https://github.com/6ust/a-kripta-protG', img: 'https://image.flaticon.com/icons/svg/61/61704.svg'} 
 					 ];
 	$scope.jobsUSACal = [	{label: 'California Jobing',url: 'https://california.jobing.com/',img: 'https://icon-library.net/images/icon-j/icon-j-14.jpg'},
 							{label: 'California Jobing',url: 'https://www.california.jobs/',img: 'https://projects.sfchronicle.com/shared/logos/sfletter_c_black_on_gray.png'},
