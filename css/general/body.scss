@@ -1,0 +1,44 @@
+body {
+	background-color: lighten(#dedede, 0);
+}
+.body {
+	// background: darken($color-st, 25);
+	margin: -5px 15%;
+	border-spacing: 0px;
+	display: block;
+	height: 200%;
+}
+
+.container {
+	display: block;
+	margin: 5px 15px;
+	padding: 5px;
+	width: 80%;
+	// background: lighten(#848, 15);
+}
+.row {
+	display: flex;
+	flex-wrap: wrap;
+}
+.row div {
+	display: inline-block;
+	margin: 5px 4px;
+	padding: 5px;
+	width: 17%;
+	top: 0;
+	// background: lighten(#848, 25);
+}
+.row div .col {
+	display: block;
+	text-align: center;
+}
+.row div .col a p {
+	font-size: 18px;
+}
+.row div .col:hover a p {
+	color: #cc0;
+}
+
+.center-align {
+	text-align: center;
+}

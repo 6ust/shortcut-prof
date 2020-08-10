@@ -1,0 +1,25 @@
+.navbar {
+	display: flex;
+	background-color: darken(#d368ed, 30);
+	padding: 5px 15px;
+	
+	ul { 
+		// background-color: lighten(#250, 35);
+		margin: 5px 20px;
+		padding: 5px 15px;
+		// float: right;
+	}
+	ul li{
+		display: inline-block;
+		// background-color: lighten(#255, 35);
+		margin: 0px 5px;
+		padding: 5px 15px;
+		font-size: 20px;
+		a {
+			color: #000;
+			&:hover {
+				color: #c2bf10;
+			}
+		}
+	}
+}

@@ -5,7 +5,8 @@
 		<title>Atalhos</title>
 		<link rel="icon" alt="picareta-diamante" href="./icons/favicon.png">
 		
-		<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<!-- <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
+		<link rel="stylesheet" href="css/style.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
 	    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-animate.js"></script>
@@ -13,60 +14,55 @@
 		<script src="./angular/controller/geral-ctrl.js"></script>
 	</head>
 	<body>
-		<nav class="navbar navbar-expand-lg navbar-light bg-light">
-		  <a class="navbar-brand" href="">Atalhos</a>
-		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-		    <span class="navbar-toggler-icon"></span>
-		  </button>
-
-		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-		    <ul class="navbar-nav mr-auto">
-		      <li class="nav-item active">
-		        <a class="nav-link" href="">Atalhos Gerais</a>
+		<nav class="navbar">
+			<ul>
+			  <li>
+		        <a href="">Atalhos Gerais</a>
 		      </li>
-		      <li class="nav-item">
-		        <a class="nav-link" href="pages/rede-social.html">Redes Sociais</a>
+		      <li>
+		        <a href="pages/rede-social.html">Redes Sociais</a>
 		      </li>
-		      <li class="nav-item">
-		        <a class="nav-link" href="pages/estudos.html">Estudos</a>
+		      <li>
+		        <a href="pages/estudos.html">Estudos</a>
 		      </li>
-		      <li class="nav-item">
-		        <a class="nav-link" href="pages/projetos.html">Projetos</a>
+		      <li>
+		        <a href="pages/projetos.html">Projetos</a>
 		      </li>
-		    </ul>
-		    <form class="form-inline my-2 my-lg-0">
-		      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-		      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-		    </form>
-		  </div>
+			</ul>
 		</nav>
 		
-		<div class="container">
-			<br>
-		</div>
-		<div class="container " ng-app="generalSCG">
-			<h2>Atalhos Gerais</h2>
-			<div ng-controller="shortcutg" class="row">
-				<div ng-repeat="sc in shortcut">
-					<div class="col">
-						<a href="{{sc.url}}" target="_blank">
-							<img src="{{sc.img}}" alt="{{sc.label}}" width="50" height="50">
-							<br>
-							{{sc.label}}
-						</a>
+		<div class="body">
+			<div class="container">
+				<br>
+			</div>
+			<div class="container " ng-app="generalSCG">
+				<h2>Atalhos Gerais</h2>
+				<div ng-controller="shortcutg" class="row">
+					<div ng-repeat="sc in shortcut" class="center-align">
+						<div class="col">
+							<a href="{{sc.url}}" target="_blank">
+								<img src="{{sc.img}}" alt="{{sc.label}}" width="50" height="50">
+								<br>
+								<p>
+									{{sc.label}}
+								</p>
+							</a>
+						</div>
 					</div>
 				</div>
-			</div>
-			<br>
-			<h2>Atalhos Compras</h2>
-			<div ng-controller="shortcutg" class="row">
-				<div ng-repeat="sc in shortcutBuy">
-					<div class="col">
-						<a href="{{sc.url}}" target="_blank">
-							<img src="{{sc.img}}" alt="{{sc.label}}" width="50" height="50">
-							<br>
-							{{sc.label}}
-						</a>
+				<br>
+				<h2>Atalhos Compras</h2>
+				<div ng-controller="shortcutg" class="row">
+					<div ng-repeat="sc in shortcutBuy" class="center-align">
+						<div class="col">
+							<a href="{{sc.url}}" target="_blank">
+								<img src="{{sc.img}}" alt="{{sc.label}}" width="50" height="50">
+								<br>
+								<p>
+									{{sc.label}}
+								</p>
+							</a>
+						</div>
 					</div>
 				</div>
 			</div>

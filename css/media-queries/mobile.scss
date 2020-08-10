@@ -1,0 +1,41 @@
+@media screen and (min-width: 500px) and (max-width: 1000px) {
+	
+	.navbar {
+		display: block;
+		background-color: lighten(#203, 23);
+		padding: 5px 15px;
+
+		ul { 
+			display: block;
+			// background-color: lighten(#250, 35);
+			margin: 5px auto;
+			padding: 5px 15px;
+		}
+		ul li{
+			display: grid;
+			// background-color: lighten(#255, 35);
+			margin: 5px 5px;
+			padding: 5px 15px;
+			text-align: center;
+			&:hover {
+				background-color: lighten(#203, 45);
+			}
+		}
+	}
+
+	.body {
+		// background: darken($color-st, 25);
+		margin: -5px 5%;
+		border-spacing: 0px;
+		display: block;
+		height: 200%;
+	}
+
+	.container {
+		display: block;
+		margin: 5px 5px;
+		padding: 5px;
+		width: 97.5%;
+		// background: lighten(#848, 15);
+	}
+}
