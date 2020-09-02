@@ -52,6 +52,8 @@ generalSCG.controller("shortcutg", function($scope) {
 						];
 
 	$scope.project = [	{label: 'Lyrics Project', url: 'https://1995.netlify.com/', img: 'https://pbs.twimg.com/profile_images/422137684014792704/GZfNf9ti.png'}, 
+						{label: 'Github', url: 'https://github.com/6ust', img: 'https://cdn.iconscout.com/icon/free/png-256/github-144-555281.png'}, 
+						{label: 'Template Pessoal em desenvolvimento', url: 'http://temp001.netlify.app/', img: 'https://obs.sgp1.digitaloceanspaces.com/uploads/large/501557250579mwaeb2bobuxtba0kgajrpposqlgo69oorclc1br0yu8m7o74zdubymbxlzezvvi763avx7k2s3w65fliix5bmgq4neg2sm9tkmgw.png'}, 
 						{label: 'Movies DBZN', url: 'https://moviedbzn.netlify.com/', img: 'https://4.bp.blogspot.com/-G-FHwpnqpW4/UNo-P4DVwqI/AAAAAAAAAGY/8ey52J4RIQ8/s1600/esfera.png'}, 
 						{label: 'Recipes and Cocktails', url: 'https://recipesandcocktail.wordpress.com/', img: 'https://images.vexels.com/media/users/3/157026/isolated/lists/3c375311fc725d757df321cd4506c349-icone-de-cocktail-de-martini-de-verao.png'}, 
 						{label: 'Game GIT: A Kripta', url: 'https://github.com/6ust/a-kripta-protG', img: 'https://image.flaticon.com/icons/svg/61/61704.svg'} 
